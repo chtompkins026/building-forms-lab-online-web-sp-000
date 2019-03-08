@@ -6,7 +6,7 @@ export default class BandInput extends Component {
   handleChange = e => {
     this.setState({
       text: e.target.value
-    })
+    }); 
   }
 
   handleSubmit = e => {
